@@ -1,0 +1,143 @@
+.About {
+    padding: 30px 0;
+    max-width: 1600px;
+    background-color: #fff;
+    margin: 0 auto 50px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.AboutContainer {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.About h3 {
+    font-family: "Kaushan Script", cursive;
+    font-size: 24px;
+    line-height: 1.2;
+    color: #333333;
+}
+
+.About h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.About hr {
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+}
+
+.About p {
+    max-width: 850px;
+    margin: 50px auto 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    color: #999999;
+}
+
+.AboutProject {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.AboutProjectImg {
+    margin: 0 0 0 20px;
+}
+
+.AboutProjectImg img {
+    max-width: 100%;
+}
+
+.AboutProjectText {
+    text-align: left;
+    margin: 0 20px 0 100px;
+}
+
+.TextContainer h4 {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.TextContainer {
+    margin: 15px 0;
+    max-width: 500px;
+    border: 1px solid #e5e5e5;
+    padding: 20px 30px;
+}
+
+.TextContainer p {
+    margin: 10px 0 0 0;
+}
+
+@media (max-width: 1024px) {
+    .AboutProject {
+        display: block;
+    }
+
+    .AboutProjectImg {
+        margin: 0 auto;
+    }
+
+    .AboutProjectText {
+        margin: 10px;
+    }
+
+    .TextContainer {
+        margin: 15px auto;
+    }
+}
+
+.weAre {
+    margin: 80px 0 0 0;
+}
+
+.developer > a img {
+    max-width: 50px;
+}
+
+.Team {
+    margin: 50px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.developer {
+    margin: 0 50px;
+}
+
+.developer > img {
+    max-width: 100%;
+}
+
+@media (max-width: 768px) {
+
+    .Team {
+        margin: 0 0 0 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .developer {
+        margin: 50px 10px 0;
+    }
+
+    .developer h2 {
+        font-size: 20px;
+    }
+
+    .developer h3 {
+        font-size: 16px;
+    }
+}

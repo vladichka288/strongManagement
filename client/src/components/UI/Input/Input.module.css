@@ -1,0 +1,21 @@
+.Input {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.Label {
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    color: #1b1a1a;
+    padding-bottom: 10px;
+}
+.InputElement {
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0px;
+    font-family: "Roboto", sans-serif;
+}
+.Invalid {
+    border: 2px solid #D54E4E;
+}

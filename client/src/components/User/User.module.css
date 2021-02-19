@@ -1,0 +1,359 @@
+.User {
+    background-color: #eeeeee;
+    margin-bottom: 20px;
+    max-width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s;
+    border: 2px solid #646262;
+}
+/* .DeleteContainer{
+    border:2px solid black;
+    border-radius: 10px;
+} */
+.UserMainPart {
+    display: flex;
+    flex-direction: row;
+}
+.LeftPart {
+    max-width: 200px;
+}
+.RightPart {
+    margin: 0px auto;
+}
+.DeleteUser {
+    font-size: 25px;
+}
+.DeleteUser:hover {
+    cursor: pointer;
+}
+.Avatar {
+    width: 100%;
+    margin-left: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.RightPart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.TopUserHeader {
+    display: flex;
+}
+.User:hover {
+    box-shadow: 0px 4px 21px 10px rgba(0, 0, 0, 0.35);
+    /* transform: scale(1.1); */
+}
+.Label {
+    font-family: "Dancing Script", cursive;
+    font-size: 35px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.ButtonAddTask {
+    width: 100%;
+    background-color: #393737;
+    border: 0px;
+    border-radius: 5px;
+    color: #d6d6d6;
+    font-size: 25px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-family: "Dancing Script", cursive;
+}
+.Description {
+    font-size: 20px;
+    padding: 3px;
+    margin: 0 auto;
+    font-family: "Questrial", sans-serif;
+}
+.TaskGroup {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    font-size: 25px;
+    font-family: "Questrial", sans-serif;
+}
+.TaskGroupValue {
+    font-weight: bold;
+}
+.TaskGroup div {
+    padding-right: 10px;
+}
+.RatingGroup {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    font-size: 25px;
+    font-family: "Questrial", sans-serif;
+}
+.RatingGroupValue {
+    font-weight: bold;
+}
+.RatingGroup div {
+    padding-right: 10px;
+}
+.Password {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    font-family: "Andika New Basic", sans-serif;
+    font-size: 18px;
+}
+.clipBoard {
+    transition: 0.5s;
+    padding-left: 3px;
+    display: flex;
+    align-self: flex-start;
+}
+.clipBoard:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.RemoveWork {
+    transition: 0.5s;
+    justify-self: flex-end;
+    font-size: 20px;
+}
+.RemoveWork:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+
+    font-size: 20px;
+}
+.PasswordFont {
+    font-weight: bold;
+    padding-left: 3px;
+}
+.Tasks {
+    margin: 0 auto;
+    display: flex;
+    padding: 3px;
+}
+.Tasks:hover {
+    cursor: pointer;
+}
+.TasksGroup {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    padding-right: 10px;
+    font-family: "Dancing Script", cursive;
+}
+.TasksGroupValue {
+    font-size: 18px;
+}
+@media (max-width: 1500px) {
+    .User {
+        max-width: 50%;
+    }
+}
+@media (max-width: 1024px) {
+    .User {
+        background-color: #eeeeee;
+        margin-bottom: 20px;
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 5px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        transition: 0.5s;
+    }
+    .User:hover {
+        box-shadow: 0px 4px 21px 10px rgba(0, 0, 0, 0.35);
+        transform: scale(1);
+    }
+}
+@media (max-width: 650px) {
+    .LeftPart {
+        max-width: 100%;
+    }
+    .Avatar {
+        border-radius: 10px;
+        margin-left:0px;
+        margin-top:10px;
+    }
+    .UserMainPart {
+        flex-direction: column;
+    }
+    .User {
+        background-color: #eeeeee;
+        margin-bottom: 20px;
+        max-width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 5px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        transition: 0.5s;
+    }
+    .User:hover {
+        box-shadow: 0px 4px 21px 10px rgba(0, 0, 0, 0.35);
+    }
+    .addTaskContainer {
+        padding: 0px;
+    }
+}
+@media (max-width: 500px) {
+    .LeftPart {
+        max-width: 100%;
+        padding: 10px;
+    }
+    .Avatar {
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+    .User {
+        background-color: #eeeeee;
+        margin-bottom: 20px;
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 5px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        transition: 0.5s;
+    }
+    .User:hover {
+        box-shadow: 0px 4px 21px 10px rgba(0, 0, 0, 0.35);
+    }
+}
+
+.DeleteContainer,
+.addTaskContainer {
+    display: none;
+    margin: 30px 0 0 0;
+    padding-bottom: 10px;
+}
+
+.DeleteContainer.active,
+.addTaskContainer.active {
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px black solid;
+    border-radius: 10px;
+}
+
+.Delete {
+    margin: auto;
+    text-align: center;
+    font-family: "Questrial", sans-serif;
+}
+
+button {
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+.deletebtn {
+    width: 35%;
+    margin: 0 0 0 10px;
+}
+
+.cancelbtn {
+    width: 35%;
+    margin: 0 10px 0 0;
+}
+
+.cancelbtn {
+    background-color: #ccc;
+    color: black;
+}
+
+.deletebtn {
+    background-color: #393737;
+}
+
+.container,
+.addTask {
+    padding: 0px;
+    text-align: center;
+    font-family: "Questrial", sans-serif;
+}
+
+.container p {
+    font-size: 22px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@media (max-width: 420px) {
+    button {
+        font-size: 16px;
+        padding: 14px 10px;
+    }
+
+    .container,
+    .addTask {
+        padding: 0;
+    }
+
+    .addTaskContainer {
+        padding-bottom: 10px;
+    }
+}
+
+.scrollbar {
+    margin-left: 30px;
+    float: left;
+    height: 300px;
+    width: 65px;
+    background: #f5f5f5;
+    overflow-y: scroll;
+    margin-bottom: 25px;
+}
+
+.forceOverflow {
+    min-height: 450px;
+}
+
+#style1::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #f5f5f5;
+}
+
+#style1::-webkit-scrollbar {
+    width: 12px;
+    background-color: #f5f5f5;
+}
+
+#style1::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #555;
+}

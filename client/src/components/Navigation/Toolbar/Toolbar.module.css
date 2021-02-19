@@ -1,0 +1,89 @@
+.Toolbar {
+    height: 56px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #703b09;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    z-index: 90;
+    background-color:#EEEEEE;
+    -webkit-box-shadow: 0px 4px 19px 10px rgba(0,0,0,0.29); 
+    box-shadow: 0px 4px 19px 10px rgba(0,0,0,0.29);
+    box-shadow: 0px 4px 21px 10px rgba(0,0,0,0.35);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.headerBurger {
+    display: none;
+}
+
+@media(max-width: 1024px) {
+    body.lock {
+        overflow: hidden;
+    }
+
+    .headerBurger {
+        display: block;
+        width: 30px;
+        height: 20px;
+        position: relative;
+        margin: 15px 0;
+    }
+
+    .headerBurger span {
+        background-color: black;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        top: 9px;
+        transition: all 0.3s ease 0s;
+    }
+    .headerBurger:before,
+    .headerBurger:after {
+        content: "";
+        background-color: black;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        transition: all 0.3s ease 0s;
+    }
+    .headerBurger:before {
+        top: 0;
+    }
+    .headerBurger:after {
+        bottom: 0;
+    }
+
+    .headerBurger.active span {
+        transform: scale(0);
+    }
+
+    .headerBurger.active:before {
+        transform: rotate(45deg);
+        top: 9px;
+    }
+    .headerBurger.active:after {
+        transform: rotate(-45deg);
+        bottom: 9px;
+    }
+
+
+    /* .NavigationItems_NavigationItems__ksk0n {
+        position: fixed;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        transition: all 0.3s ease 0s;
+        background-color: #080808;
+    } */
+}

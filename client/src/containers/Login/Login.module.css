@@ -1,0 +1,31 @@
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.errorMessage {
+    color: #d54e4e;
+    font-size: 20px;
+    padding: 5px;
+    font-family: "Source Sans Pro", sans-serif;
+}
+.loginTypes{
+    display: flex;
+    padding:10px;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.Oauth{
+    max-height:50px;
+    border-radius:10px;
+    cursor: pointer;
+    transition : 0.5s;
+}
+
+.Oauth:hover {
+    transform: scale(1.1);
+    cursor: pointer
+}

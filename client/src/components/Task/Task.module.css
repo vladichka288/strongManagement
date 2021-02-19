@@ -1,0 +1,100 @@
+.TasksArrayContainer{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: "Questrial", sans-serif;
+    
+}
+
+.number {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.taskItem {
+    max-width: 450px;
+    margin: 50px;
+    background-color: #eeeeee;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: -1px 5px 29px 6px rgba(0, 0, 0, 0.33);
+    text-align: center;
+    position: relative;
+}
+
+.taskItem h2 {
+    font-family: 'Dancing Script', cursive;
+}
+
+.taskItem p {
+    font-size: 22px;
+    line-height: 34px;
+    
+}
+
+.SendArticle {
+    margin-top: 30px;
+    width: 50%;
+    background-color: #393737;
+    border-radius: 5px;
+    color: #d6d6d6;
+    font-size: 25px;
+}
+
+.taskItem span {
+    font-weight: 700;
+    font-family: "Questrial", sans-serif;
+}
+
+.LinkInput {
+    margin: 0 auto;
+    display: flex;
+    max-width: 300px;
+    align-items: center;
+    font-size: 20px;
+}
+
+.LinkInput input {
+    margin:  0 0 0 20px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+
+}
+
+@media (max-width: 900px) {
+    .taskItem {
+        max-width: 450px;
+        display: block;
+    }
+}
+
+@media (max-width: 500px) {
+    .taskItem{
+        margin:20px 0;
+    }
+    .taskItem p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .taskItem h2 {
+        font-size: 25px;
+    }
+
+    .SendArticle {
+        width: initial;
+        font-size: 20px;
+    }
+
+    .taskItem span {
+        font-size: 18px;
+    }
+}
